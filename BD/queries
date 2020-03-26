@@ -1,0 +1,5 @@
+1.Получение времени сеансов за весь период:
+	SELECT device_id, city, SUM(session_time) FROM stats GROUP BY device_id
+
+2.Получение времени сеансов за определенную дату:
+	SELECT device_id, city, SUM(session_time) FROM stats WHERE date = CURRENT_DATE GROUP BY device_id

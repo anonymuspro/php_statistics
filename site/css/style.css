@@ -1,0 +1,28 @@
+body{
+	background-color: #10576f;	
+}
+table {
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 0 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.cities{
+	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.cities button {
+    margin: 10px 20px;
+    width: 150px;
+    height: 30px;
+}
+.tb{
+    padding-left: 50px;
+}
